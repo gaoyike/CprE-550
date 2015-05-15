@@ -1,0 +1,188 @@
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:30:30] "GET / HTTP/1.1" 401 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:30:38] "GET / HTTP/1.1" 401 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:30:41] "GET /favicon.ico HTTP/1.1" 401 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:39:14] "GET / HTTP/1.1" 401 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:39:26] "GET / HTTP/1.1" 401 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:39:37] "GET / HTTP/1.1" 401 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:39:43] "GET / HTTP/1.1" 401 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:43:44] "GET / HTTP/1.1" 401 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:46:45] "GET / HTTP/1.1" 401 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:48:53] "GET / HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:48:53] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:48:53] "GET / HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:48:53] "GET /favicon.ico HTTP/1.1" 404 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:48:54] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:03] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:03] "GET /pydirector.css HTTP/1.1" 200 -
+16/04/2015 15:49:36 marking host ('127.0.0.1', 8002) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:49:36 retrying with ('127.0.0.1', 8003)
+16/04/2015 15:49:36 marking host ('127.0.0.1', 8003) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:49:36 retrying with ('127.0.0.1', 8004)
+16/04/2015 15:49:36 marking host ('127.0.0.1', 8004) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:49:36 no working servers, manager -> aggressive
+16/04/2015 15:49:36 re-adding ('127.0.0.1', 8003) automatically
+16/04/2015 15:49:36 re-adding ('127.0.0.1', 8004) automatically
+16/04/2015 15:49:36 re-adding ('127.0.0.1', 8002) automatically
+16/04/2015 15:49:36 marking host ('127.0.0.1', 8002) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:49:36 retrying with ('127.0.0.1', 8003)
+16/04/2015 15:49:36 marking host ('127.0.0.1', 8003) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:49:36 retrying with ('127.0.0.1', 8004)
+16/04/2015 15:49:36 marking host ('127.0.0.1', 8004) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:49:36 no working servers, manager -> aggressive
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:44] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:44] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:45] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:45] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:51] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:51] "GET /pydirector.css HTTP/1.1" 200 -
+16/04/2015 15:49:51 re-adding ('127.0.0.1', 8003) automatically
+16/04/2015 15:49:51 re-adding ('127.0.0.1', 8004) automatically
+16/04/2015 15:49:51 re-adding ('127.0.0.1', 8002) automatically
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:52] "GET /running.xml HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:55] "GET /config.xml HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:59] "GET / HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:49:59] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:50:01] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:50:01] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:50:02] "GET /running?refresh=1&ignore=1429217401.08 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:50:02] "GET /pydirector.css HTTP/1.1" 200 -
+16/04/2015 15:50:07 marking host ('127.0.0.1', 8002) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:50:07 retrying with ('127.0.0.1', 8003)
+16/04/2015 15:50:07 marking host ('127.0.0.1', 8003) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:50:07 retrying with ('127.0.0.1', 8004)
+16/04/2015 15:50:07 marking host ('127.0.0.1', 8004) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:50:07 no working servers, manager -> aggressive
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:50:12] "GET /running?refresh=1&ignore=1429217401.08 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:50:12] "GET /pydirector.css HTTP/1.1" 200 -
+16/04/2015 15:50:21 re-adding ('127.0.0.1', 8003) automatically
+16/04/2015 15:50:21 re-adding ('127.0.0.1', 8004) automatically
+16/04/2015 15:50:21 re-adding ('127.0.0.1', 8002) automatically
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:56:37] "GET / HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:56:37] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:57:50] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:57:50] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:57:51] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:57:51] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:00] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:00] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:00] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:00] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:01] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:01] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:01] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:01] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:02] "GET /running?refresh=1&ignore=1429217881.63 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:02] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:03] "GET /running?ignore=1429217882.87 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:03] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:03] "GET /running?refresh=1&ignore=1429217883.25 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:03] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:27] "GET /running?ignore=1429217882.87 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:27] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:28] "GET /running?ignore=1429217882.87 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:28] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:51] "GET /running?ignore=1429217882.87 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:51] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:52] "GET /running?ignore=1429217882.87 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:52] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:52] "GET /running?ignore=1429217882.87 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:52] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:53] "GET /running?refresh=1&ignore=1429217932.87 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:53] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:54] "GET /running?ignore=1429217933.43 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:54] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:55] "GET /running?refresh=1&ignore=1429217934.41 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:55] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:55] "GET /running?ignore=1429217935.2 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:55] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:56] "GET /running?ignore=1429217935.69 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:58:56] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:59:01] "GET /running?refresh=1&ignore=1429217934.41 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:59:01] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:59:08] "GET /running?refresh=1&ignore=1429217934.41 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 15:59:08] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 16:20:54] "GET / HTTP/1.1" 401 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 16:20:56] "GET / HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 16:20:56] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 16:20:56] "GET /favicon.ico HTTP/1.1" 404 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 16:21:00] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 16:21:01] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 16:21:04] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 16:21:04] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 16:22:04] "GET /running?refresh=1&ignore=1429219264.79 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [16/Apr/2015 16:22:04] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:17] "GET /running HTTP/1.1" 401 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:18] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:18] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:18] "GET /favicon.ico HTTP/1.1" 404 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:24] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:25] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:25] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:25] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:44] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:44] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:45] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:45] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:45] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:45] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:46] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:46] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:46] "GET /running HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:46] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:48] "GET /running?refresh=1&ignore=1429293286.82 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:48] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:49] "GET /running?refresh=1&ignore=1429293286.82 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:49] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:51] "GET /running?refresh=1&ignore=1429293286.82 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:51] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:51] "GET /running?refresh=1&ignore=1429293286.82 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:54:51] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:55:01] "GET /running?refresh=1&ignore=1429293286.82 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:55:01] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:55:02] "GET /running?refresh=1&ignore=1429293286.82 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:55:02] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:56:02] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:56:02] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:56:09] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:56:09] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:56:47] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:56:47] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:56:47] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:56:48] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:56:52] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:56:52] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:10] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:11] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:11] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:11] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:14] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:14] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:14] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:14] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:19] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:19] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:19] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:19] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:23] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:23] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:25] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:25] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:53] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:57:53] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:58:10] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:58:10] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:58:11] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:58:11] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:58:11] "GET /running?refresh=1&ignore=1429293302.33 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [17/Apr/2015 12:58:11] "GET /pydirector.css HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [18/Apr/2015 12:26:01] "GET /running?refresh=1&ignore=1429293491.54 HTTP/1.1" 200 -
+ADMIN: 1.0.0.127.in-addr.arpa - - [18/Apr/2015 12:26:01] "GET /pydirector.css HTTP/1.1" 200 -

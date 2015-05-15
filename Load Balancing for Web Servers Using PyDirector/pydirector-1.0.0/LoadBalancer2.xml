@@ -1,0 +1,17 @@
+<pdconfig>
+    <!-- This is a sample configuration file! see doc/configure.txt for
+         more information -->
+    <service name="prod-http">
+        <listen ip="127.0.0.1:10022" />
+        <group name="main" scheduler="leastconns">
+            <host name="cnn[1]" ip="157.166.255.18:80" />
+            <host name="cnn[2]" ip="157.166.255.19:80" />
+            <host name="cnn[3]" ip="157.166.255.25:80" />
+        </group>
+        <enable group="main" />
+    </service>
+    <admin listen="localhost:7002">
+        <user name="admin" password="admin" access="full"/>
+    </admin>
+    <logging file="pydir2.log"/>
+</pdconfig>

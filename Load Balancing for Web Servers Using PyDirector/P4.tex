@@ -1,0 +1,120 @@
+\documentclass{article}
+\usepackage{times}
+\usepackage{fancyhdr}
+\usepackage{extramarks}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{algpseudocode}
+\usepackage{pdfpages} %insert pdf pages
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{graphicx}
+\usepackage[]{algpseudocode}
+
+
+%
+% Basic Document Settings
+%
+
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1}
+
+\pagestyle{fancy}
+\lhead{\hmwkAuthorName}
+\chead{\hmwkClass\  }
+\rhead{\hmwkTitle}
+\lfoot{\lastxmark}
+\cfoot{\thepage}
+
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+\setlength\parindent{0pt}
+
+
+%
+% Homework Details
+%   - Title
+%   - Due date
+%   - Class
+%   - Section/Time
+%   - Instructor
+%   - Author
+%
+
+\newcommand{\hmwkTitle}{Project Report \#4}
+\newcommand{\hmwkDueDate}{Apr 26, 2015}
+\newcommand{\hmwkClass}{CprE 550}
+\newcommand{\hmwkClassInstructor}{Instructor: Professor Yong Guan}
+\newcommand{\hmwkAuthorName}{Chenguang He}
+
+%
+% Title Page
+%
+
+\title{
+    \vspace{2in}
+    \textmd{\textbf{\hmwkClass:\\\ \hmwkTitle}}\\
+    \normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate\ }\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor}}
+    \vspace{3in}
+}
+
+\author{\textbf{\hmwkAuthorName}}
+\date{}
+
+\renewcommand{\part}[1]{\textbf{\large Part \Alph{partCounter}}\stepcounter{partCounter}\\}
+
+\renewcommand{\thesection}{\arabic{section}}% Remove section references...
+\renewcommand{\thesubsection}{\arabic{subsection}}%... from subsections
+
+
+
+\renewcommand{\thesubsection}{\arabic{subsection}}
+\makeatletter
+\def\@seccntformat#1{\@ifundefined{#1@cntformat}%
+   {\csname the#1\endcsname\quad}%       default
+   {\csname #1@cntformat\endcsname}}%    enable individual control
+\newcommand\section@cntformat{}
+\makeatother
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+
+\section{How to hack the problem}
+Firstly, i change the admin page to allow all user to log in the web interface, since i find out the original code does not work as expect. So in my code, the pydirector can log in to the web interface by enter "admin" as username and "admin" as password.\\
+
+Secondly, i started on the code which use least count server as the next available server, i changed the coded, add simple RPC as a service and make sure there is only one instance of RPC as a time. The RPC server is very easy, it holds a variable called host, and each time, when there is a http request arrived, it update the information, and set the current information to all RPC client, which is the pydirector in here. Whenever the pydirector need to process a http request, it firstly check the hosts variable in RPC server to make sure the current information is sync with the global variable.\\
+
+Finally, the request update only the open connection variable but all connection variable. The open connection variable in original code is used to maintain the current open connection. Therefore, it is the globe variable shared with all balance. However, the all variable is used to maintain the current connection in local. By watching the change of those two variables, we can find out how the balance works in distributed system.\\
+
+\section{Test Result}
+\textbf{Only one web server configured into place with two load‐balancers. Drive load to saturation and mark the rate.}\\
+i setup the rate to 2000, and the it reported that, because the limit of open connection in Mac OS is 1000 by default per process, it is the maximum rate that i can use. 
+\textbf{Two web servers configured with two load‐balancers. Drive load to saturation again and mark the rate.}\\
+
+When i have two web server, for example, i use CNN as test web server, when i open more than 1000 connectiones, the python process crashs and ever go end.
+\textbf{Four web servers configured with two load‐balancers. Drive to saturation and mark the rate.}\\
+
+I also test 4 CNN web server in here, i changed the maximum connection to unlimited, and it works when the rate set up to 2000.
+\textbf{Full configuration, maximum load‐balancers, maximum web servers. Drive a heterogeneous load with one of the load balancers taking many more connections than the other(s).}\\
+
+I can not find more than 7 CNN IP address, it is very slow to test them in distributed environment, i have 5 balanacer, but i find out that, the increase of balancer does not help with the rate. Finally, the rate is on 800 per second.\\
+
+\section{Usage}
+For pydirector, there are two balancer xml in the folder, run each one individually and they can communicate each other by itself.\\
+
+For localdriver, it has the config.xml file, run it.\\
+\end{document} 

@@ -1,0 +1,112 @@
+\documentclass{article}
+\usepackage{times}
+\usepackage{fancyhdr}
+\usepackage{extramarks}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{algpseudocode}
+\usepackage{pdfpages} %insert pdf pages
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{graphicx}
+
+
+
+
+%
+% Basic Document Settings
+%
+
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1}
+
+\pagestyle{fancy}
+\lhead{\hmwkAuthorName}
+\chead{\hmwkClass\  }
+\rhead{\hmwkTitle}
+\lfoot{\lastxmark}
+\cfoot{\thepage}
+
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+\setlength\parindent{0pt}
+
+
+%
+% Homework Details
+%   - Title
+%   - Due date
+%   - Class
+%   - Section/Time
+%   - Instructor
+%   - Author
+%
+
+\newcommand{\hmwkTitle}{Project \ \#3}
+\newcommand{\hmwkDueDate}{April 5, 2015}
+\newcommand{\hmwkClass}{Cpr E 550}
+\newcommand{\hmwkClassInstructor}{Instructor: Professor Guan Yong}
+\newcommand{\hmwkAuthorName}{Chenguang He}
+
+%
+% Title Page
+%
+
+\title{
+    \vspace{2in}
+    \textmd{\textbf{\hmwkClass:\\\ \hmwkTitle}}\\
+    \normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate\ }\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor}}
+    \vspace{3in}
+}
+
+\author{\textbf{\hmwkAuthorName}}
+\date{}
+
+\renewcommand{\part}[1]{\textbf{\large Part \Alph{partCounter}}\stepcounter{partCounter}\\}
+
+\renewcommand{\thesection}{\arabic{section}}% Remove section references...
+\renewcommand{\thesubsection}{\arabic{subsection}}%... from subsections
+
+
+
+\renewcommand{\thesubsection}{\arabic{subsection}}
+\makeatletter
+\def\@seccntformat#1{\@ifundefined{#1@cntformat}%
+   {\csname the#1\endcsname\quad}%       default
+   {\csname #1@cntformat\endcsname}}%    enable individual control
+\newcommand\section@cntformat{}
+\makeatother
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\section{Implementation Idea}
+The program implement only the first phase in the project document. It is simply a auction program and the seller of current auction can decide when to sell the item to current highest bidder. The item created by the seller. the bidder only can bid and view the current bidding state. However, the name of current highest bidder only view by seller.\\
+
+The Implementation idea is that, we have a inner class auction and a variable hold the current auction item. The item is initially null, and when a seller create a auction, it becomes available. The bidders are only allowed to bid the higher price. There is only one auction in a time. \\
+
+When the seller decide to sell a item to the highest bidder, he only need to click the sell, and the program can send message to the highest bidder. At that time, the current auction item is null again, and some seller can create new auction at that time.
+\clearpage 
+\section{Design Idea}
+All the files in P3 folder are created by idlj command.\\
+
+AuctionImpl class implements the infoPOA class, and it implement every methods in it, It is the server's remote methods collection. \\
+
+Client is the client side interface, it consists of both seller and bidder, after user enter its username, the program allows user to choose the role of user for bidder or seller. \\
+
+The Server is a CORBA server, it runs in a loop and keep calling the method request from client side.
+\section{Measurements}
+I tested every possible selections for both seller and bidder. They works as design. Also, i test the response time of heavy load of server. Because i only test it in local, the delay is vague and can ignore (i test in 50 clients to bids one item in 2000 times, it takes in constant time.).
+\label{my-label}
+\end{document}

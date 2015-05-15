@@ -1,0 +1,10 @@
+<!--config.xml for Load Driver -->
+<rootconfig>
+ <rate>5</rate> <!--rate is defined as requests per second -->
+ <period>1</period> <!-- period is the number of seconds to send requests -->
+ <timeout>1</timeout> <!-- timeout is the number of seconds to wait for the last requests to finish-->
+ <host>
+   <hostname>127.0.0.1</hostname>
+   <port>10022</port>
+ </host>
+</rootconfig>

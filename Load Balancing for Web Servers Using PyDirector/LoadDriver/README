@@ -1,0 +1,11 @@
+To run the Load Driver:
+ - from the command line: "python driveload.py"
+
+To change the hosts/ports, modify the file: config.xml
+Descriptions of the options are commented in the file.
+
+To add more hosts to be tested, simply add another 
+<host> block to the configuration file
+
+This Load Driver and README were written by Brendan Campbell in April 2008
+

@@ -1,0 +1,56 @@
+16/04/2015 15:16:10 marking host ('127.0.0.1', 8002) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:16:10 retrying with ('127.0.0.1', 8003)
+16/04/2015 15:16:10 marking host ('127.0.0.1', 8003) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:16:10 retrying with ('127.0.0.1', 8004)
+16/04/2015 15:16:10 marking host ('127.0.0.1', 8004) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 61: Connection refused.
+])
+16/04/2015 15:16:10 no working servers, manager -> aggressive
+16/04/2015 15:16:13 re-adding ('127.0.0.1', 8003) automatically
+16/04/2015 15:16:13 re-adding ('127.0.0.1', 8004) automatically
+16/04/2015 15:16:13 re-adding ('127.0.0.1', 8002) automatically
+16/04/2015 15:16:40 marking host ('127.0.0.2', 8002) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+])
+16/04/2015 15:16:40 retrying with ('127.0.0.2', 8004)
+16/04/2015 15:16:40 marking host ('127.0.0.2', 8003) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+])
+16/04/2015 15:16:40 retrying with ('127.0.0.2', 8004)
+16/04/2015 15:16:40 marking host ('127.0.0.2', 8004) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+])
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:40 no working servers, manager -> aggressive
+16/04/2015 15:16:41 no working servers, manager -> aggressive
+16/04/2015 15:16:41 no working servers, manager -> aggressive
+16/04/2015 15:16:41 no working servers, manager -> aggressive
+16/04/2015 15:16:41 no working servers, manager -> aggressive
+16/04/2015 15:16:41 no working servers, manager -> aggressive
+16/04/2015 15:16:41 no working servers, manager -> aggressive
+16/04/2015 15:16:43 re-adding ('127.0.0.2', 8004) automatically
+16/04/2015 15:16:43 re-adding ('127.0.0.2', 8002) automatically
+16/04/2015 15:16:43 re-adding ('127.0.0.2', 8003) automatically
+16/04/2015 15:17:10 marking host ('127.0.0.2', 8004) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+])
+16/04/2015 15:17:10 retrying with ('127.0.0.2', 8002)
+16/04/2015 15:17:10 retrying with ('127.0.0.2', 8003)
+16/04/2015 15:17:23 marking host ('127.0.0.2', 8002) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectError'>: An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+])
+16/04/2015 15:17:23 retrying with ('127.0.0.2', 8003)
+16/04/2015 15:17:23 marking host ('127.0.0.2', 8003) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectError'>: An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+])
+16/04/2015 15:17:23 no working servers, manager -> aggressive
